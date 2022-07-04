@@ -22,7 +22,7 @@ public class TestCase {
   @Test (priority = 2, groups = "Sanity")
   public void Test03()
   {
-	  System.out.println("Test03");
+	  System.out.println("Test03 is also an example");
   }
   
   @Test (groups = "depends")
