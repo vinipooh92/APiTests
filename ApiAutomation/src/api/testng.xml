@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="ToolsQA" >
+  	 <groups>
+  	 	<dependencies>
+  	 		<group depends-on="depends" name="Regression">
+  	 		<run>
+  	 		<include name="Regression" ></include>
+  	 		<include name="depends"></include>
+  	 		</run>
+  	 		</group>
+  	 	</dependencies>
+   	
+   	 </groups>
+       <classes> 
+          <class name="api.TestCase" />
+       </classes>
+   </test>
+ </suite>

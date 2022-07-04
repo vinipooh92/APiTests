@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T19:42:18 GMT-04:00" name="Test-Suite" finished-at="2022-07-02T19:42:19 GMT-04:00" duration-ms="88">
+    <groups>
+      <group name="depends">
+        <method signature="TestCase.Test04()[pri:0, instance:api.TestCase@20140db9]" name="Test04" class="api.TestCase"/>
+        <method signature="TestCase.Test05()[pri:0, instance:api.TestCase@20140db9]" name="Test05" class="api.TestCase"/>
+      </group> <!-- depends -->
+      <group name="Regression">
+        <method signature="TestCase.Test02()[pri:1, instance:api.TestCase@20140db9]" name="Test02" class="api.TestCase"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-07-02T19:42:18 GMT-04:00" name="ToolsQA" finished-at="2022-07-02T19:42:19 GMT-04:00" duration-ms="88">
+      <class name="api.TestCase">
+        <test-method signature="Test04()[pri:0, instance:api.TestCase@20140db9]" started-at="2022-07-02T19:42:18 GMT-04:00" name="Test04" finished-at="2022-07-02T19:42:18 GMT-04:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04 -->
+        <test-method signature="Test05()[pri:0, instance:api.TestCase@20140db9]" started-at="2022-07-02T19:42:18 GMT-04:00" name="Test05" finished-at="2022-07-02T19:42:18 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05 -->
+        <test-method signature="Test02()[pri:1, instance:api.TestCase@20140db9]" started-at="2022-07-02T19:42:18 GMT-04:00" name="Test02" depends-on-groups="depends" finished-at="2022-07-02T19:42:18 GMT-04:00" depends-on-methods="api.TestCase.Test04, api.TestCase.Test05" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+      </class> <!-- api.TestCase -->
+    </test> <!-- ToolsQA -->
+  </suite> <!-- Test-Suite -->
+</testng-results>
