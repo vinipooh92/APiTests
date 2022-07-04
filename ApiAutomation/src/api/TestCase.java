@@ -16,7 +16,7 @@ public class TestCase {
   @Test (priority = 1, groups = "Regression", dependsOnMethods = {"Test04","Test05"})
   public void Test02()
   {
-	  System.out.println("Test02");
+	  System.out.println("Test02 is a example");
   }
   
   @Test (priority = 2, groups = "Sanity")
